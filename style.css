@@ -3,15 +3,9 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
 body {
   margin: 100px 0;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 h1,
 h2,
@@ -46,6 +40,11 @@ h3 {
   text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
 }
 .primary-link {
   border-radius: 4px;
