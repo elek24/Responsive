@@ -3,6 +3,12 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -44,4 +50,21 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+p {
+  margin: 10px;
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
 }
