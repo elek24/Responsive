@@ -5,6 +5,8 @@ font-family: 'Raleway', sans-serif;*/
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "Major Mono Display", monospace;
+  --secondary-font: "Raleway", sans-serif;
 }
 body {
   margin: 100px 0;
@@ -17,13 +19,16 @@ h3 {
 }
 h1 {
   font-size: 96px;
+  font-family: var(--primary-font);
 }
 h2 {
   font-size: 48px;
+  font-family: var(--secondary-font);
 }
 h3 {
   font-size: 24px;
   opacity: 0.7;
+  font-family: var(--secondary-font);
 }
 .contact-link {
   margin: 20px;
