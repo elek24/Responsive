@@ -52,7 +52,7 @@ p {
   background: var(--background-color-2);
 }
 .view-project-line {
-  font-size: 20px;
+  font-size: 22px;
   font-family: var(--primary-font);
 }
 .nav-link,
