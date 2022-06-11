@@ -33,11 +33,12 @@ h1 {
 h2 {
   font-size: 60px;
   font-family: var(--secondary-font);
+  color: #31d2f7;
 }
 h3 {
   font-size: 30px;
-  opacity: 0.7;
   font-family: var(--secondary-font);
+  color: #31d2f7;
 }
 p {
   margin: 10px;
@@ -50,7 +51,7 @@ p {
   font-family: var(--secondary-font);
 }
 .navbar {
-  background: var(--primary-color)
+  background: var(--primary-color);
 }
 .description {
   background: var(--background-color-2);
@@ -74,7 +75,7 @@ p {
   font-family: var(--secondary-font);
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: black;
+  color: var(--background-color-2);
 }
 .about-link {
   margin: 20px;
@@ -117,10 +118,18 @@ p {
 .about-para {
   font-family: var(--secondary-font);
 }
-.nav-link:hover {
-  color: black;
-  font-weight: bold;
+.about-link:hover {
+  color: #31d2f7;
+  font-weight: bolder;
 }
+.contact-link:hover,
+.nav-link:hover,
+.primary-link:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bolder;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
