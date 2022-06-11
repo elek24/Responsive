@@ -100,6 +100,7 @@ p {
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
+  font-size: 20px;
   color: var(--background-color-2);
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -138,10 +139,12 @@ p {
   }
 
   p {
+    font-size: 18px;
     text-align: center;
   }
 
   .primary-link {
+    font-size: 15px;
     display: block;
     text-align: center;
     margin: 0 20px;
