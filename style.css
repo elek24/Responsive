@@ -116,7 +116,10 @@ p {
 .about-para {
   font-family: var(--secondary-font);
 }
-
+.nav-link:hover {
+  color: black;
+  font-weight: bold;
+}
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
