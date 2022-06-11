@@ -118,7 +118,8 @@ p {
 .about-para {
   font-family: var(--secondary-font);
 }
-.about-link:hover {
+.about-link:hover,
+.homepage-link:hover {
   color: #31d2f7;
   font-weight: bolder;
 }
