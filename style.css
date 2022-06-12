@@ -123,8 +123,16 @@ a:hover {
   color: var(--primary-color);
   font-family: var(--secondary-font);
 }
+.about-content {
+  padding: 0;
+  margin: 0;
+}
 .about-para {
   font-family: var(--secondary-font);
+  font-size: 24px;
+  color: antiquewhite;
+  margin: 10px 0;
+  text-align: justify;
 }
 .about-link:hover,
 .homepage-link:hover {
