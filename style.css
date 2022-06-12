@@ -25,20 +25,18 @@ h2,
 h3 {
   margin: 0;
   text-align: center;
+  font-family: var(--primary-font);
 }
 h1 {
   font-size: 120px;
-  font-family: var(--primary-font);
   color: antiquewhite;
 }
 h2 {
   font-size: 60px;
-  font-family: var(--secondary-font);
   color: var(--secondary-color);
 }
 h3 {
   font-size: 30px;
-  font-family: var(--secondary-font);
   color: var(--secondary-color);
 }
 p {
@@ -117,7 +115,7 @@ a:hover {
 }
 .email-link {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   font-size: 28px;
   text-decoration: none;
   color: var(--primary-color);
@@ -129,10 +127,10 @@ a:hover {
 }
 .about-para {
   font-family: var(--secondary-font);
-  font-size: 24px;
+  font-size: 30px;
   color: antiquewhite;
   margin: 10px 0;
-  text-align: justify;
+  text-align: left;
 }
 .about-link:hover,
 .homepage-link:hover {
@@ -146,7 +144,6 @@ a:hover {
   color: black;
   font-weight: bolder;
 }
-
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
@@ -168,7 +165,9 @@ a:hover {
     font-size: 18px;
     text-align: center;
   }
-
+.about-para {
+  font-size: 15px;
+}
   .primary-link {
     font-size: 15px;
     display: block;
