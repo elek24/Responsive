@@ -125,7 +125,6 @@ a:hover {
 }
 .about-para {
   font-family: var(--secondary-font);
-  width: 50%;
 }
 .about-link:hover,
 .homepage-link:hover {
