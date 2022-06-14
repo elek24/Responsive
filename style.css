@@ -127,10 +127,10 @@ a:hover {
 }
 .about-para {
   font-family: var(--secondary-font);
-  font-size: 30px;
+  font-size: 28px;
   color: antiquewhite;
   margin: 10px 0;
-  text-align: left;
+  text-align: justify;
 }
 .about-link:hover,
 .homepage-link:hover {
