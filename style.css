@@ -144,9 +144,6 @@ a:hover {
   color: black;
   font-weight: bolder;
 }
-.contact-me {
-font-size: 36px;
-}
 @media (max-width: 700px) {
   h1 {
     font-size: 48px;
